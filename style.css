@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+    
+}
 body ,html{
 margin: 0;
 
@@ -36,7 +41,13 @@ margin: 0 auto;
 #navbar ul li a{
     text-decoration: none;
     color: #fff;
-}.image {
+
+}
+a:hover{
+    background:orange;
+    border-radius: 5px;
+}
+.image {
     max-width: 100%;
     height: 700px;
     
@@ -76,3 +87,61 @@ margin-top: 100px;
     from { width: 0 }
     to { width: 100% }
   }
+  .cont1{
+    max-width: 100%;
+    height: 300px;
+    background: rgb(247, 211, 211);
+    padding: 25px;
+    
+    
+  }
+  .cont1 h2{
+    text-align: left;
+    font-size: 30px;
+  }
+  .cont1 p{
+    font-size: 20px;
+  }
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 30px      ;
+
+  }
+  .contactsec{
+    width: 100%;
+    background: #010131;
+    margin: 0px;
+    padding: -5px;
+  }
+  
+  .cont2{
+    width: 50%;
+    background: #f2d1f3;
+    margin-top: 10px;
+    margin-left: 25%;
+    text-align: center   ;
+    padding-top: 20px;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
